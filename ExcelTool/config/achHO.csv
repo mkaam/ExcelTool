@@ -1,0 +1,11 @@
+ParameterName,ParameterValue,Info
+Import/Export,Import,Import = Excel to DB / Export = DB to Excel
+ExcelFile,\\pmiidsubdev42\ssisfiles$\SalesAchievementKPS_AutoAddNewBrand_v2\SalesAchievement\input\Sales Plan #44 (HO).xlsx,
+SheetName,,if no exist then automatically create sheet on excel
+FirstRowisHeader,1,"if no existing table, this parameter must set 1. for export if set 1 will be insert first row as column name, if 0 first row is data row"
+CellStart,A1, if not set using default value A1
+CellEnd,L50,"default value = Last cell before blank = get last column using first row data, and get last row using first column data."
+DBServer,PMIIDSUBDEV42\DEV2012,
+DBName,Users,
+DBTable,SalesVolumeAchTemp,"if no existing table, then automatically create new table. Not used for export"
+ExportQueryFile,E:\ssisfiles\SalesAchievementKPS_AutoAddNewBrand_v2\SalesAchievement\query\ach_rawdata_return.sql,define sql file for export data to excel

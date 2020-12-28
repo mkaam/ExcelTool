@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "testExcel": {
+      "commandName": "Project",
+      "commandLineArgs": "\"\\\\pmiidsubdev42\\ssisfiles$\\Sales Volume Regional\\Sales Volume Regional\\app\\mailRecipient.csv\""
+    }
+  }
+}

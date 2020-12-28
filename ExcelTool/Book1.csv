@@ -1,0 +1,11 @@
+ParameterName,ParameterValue,Info
+Import/Export,Import,Import = Excel to DB / Export = DB to Excel
+ExcelFile,C:\Users\rdwianto1\Documents\testfile\dummyexcel.xlsx,
+SheetName,Sheet1,if no exist then automatically create sheet on excel
+FirstRowisHeader,1,"if no existing table, this parameter must set 1. for export if set 1 will be insert first row as column name, if 0 first row is data row"
+CellStart,C1, if not set using default value A1
+CellEnd,K10,"default value = Last cell before blank = get last column using first row data, and get last row using first column data."
+DBServer,PMIIDSUBDEV42\DEV2012,
+DBName,Users,
+DBTable,TestTable,"if no existing table, then automatically create new table. Not used for export"
+ExportQueryFile,C:\Temp\ExportQuery.sql,define sql file for export data to excel
