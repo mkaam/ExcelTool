@@ -1,0 +1,445 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-02-07 11:11:00.3587,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:11:00.4749,    0.1162,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:11:00.4819,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-07 11:11:00.5376,    0.0556,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:11:01.7304,    1.1929,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:11:01.7304,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-07 11:11:01.7464,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:11:01.9169,    0.1705,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1558ms,
+2021-02-07 11:11:07.0288,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:11:07.0828,    0.0540,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:11:07.0898,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 11:11:07.1158,    0.0260,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:11:07.6454,    0.5295,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 616ms,
+2021-02-07 11:17:50.8936,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:17:51.2944,    0.4008,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:17:51.2944,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 11:17:51.3254,    0.0310,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:17:51.9486,    0.6233,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:17:51.9546,    0.0060,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 11:17:51.9546,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:17:52.3922,    0.4376,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1491ms,
+2021-02-07 11:17:55.5031,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:17:55.5612,    0.0580,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:17:55.5612,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 11:17:55.8310,    0.2698,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:17:56.3650,    0.5340,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 855ms,
+2021-02-07 11:18:03.4061,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:18:03.4751,    0.0690,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:18:03.4751,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 11:18:03.5068,    0.0318,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:18:04.4160,    0.9091,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:18:04.4285,    0.0125,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 11:18:04.4385,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:18:04.6000,    0.1615,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1188ms,
+2021-02-07 11:26:49.2596,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:26:49.3498,    0.0902,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:49.3568,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 11:26:49.3568,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 11:26:49.4200,    0.0632,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:50.1902,    0.7702,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:50.2002,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 11:26:50.2002,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 11:26:50.2181,    0.0179,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:50.3221,    0.1040,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1055ms,
+2021-02-07 11:26:52.1349,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:26:52.2079,    0.0730,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:52.2139,    0.0060,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 11:26:52.2139,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandFocus,
+2021-02-07 11:26:52.2459,    0.0320,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:52.8369,    0.5910,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:52.8469,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 11:26:52.8579,    0.0110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandFocus,
+2021-02-07 11:26:52.8859,    0.0280,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:53.0209,    0.1350,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 885ms,
+2021-02-07 11:26:53.3099,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:26:53.3789,    0.0690,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:53.3879,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 11:26:53.3879,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 11:26:53.4239,    0.0360,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:54.2286,    0.8046,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 918ms,
+2021-02-07 11:26:55.1736,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:26:55.2588,    0.0852,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:55.2648,    0.0060,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-07 11:26:55.2648,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_PlanRAW,
+2021-02-07 11:26:55.2932,    0.0284,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:56.0968,    0.8036,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:26:56.1036,    0.0069,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-07 11:26:56.1036,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_PlanRAW,
+2021-02-07 11:26:56.1211,    0.0175,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:26:56.2886,    0.1675,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1108ms,
+2021-02-07 11:28:34.6697,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:28:34.7428,    0.0730,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:28:34.7488,    0.0060,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 11:28:34.7488,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 11:28:34.9568,    0.2080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:28:35.6000,    0.6432,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IndexOutOfRangeException: There is no row at position 9.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at testExcel.DataTableToDatabase.Input(SqlConnection sqlcon, DataTable dtColumns, DataTable dt, String tableName)
+   at testExcel.DataTableToDatabase.InputToDatabase(DataTable dt, String serverName, String dbName, String tableName, String[] columnsTypeToAdd)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-07 11:28:35.6231,    0.0231,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 953ms,
+2021-02-07 11:28:44.3067,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:28:44.3777,    0.0710,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:28:44.3857,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 11:28:44.3857,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 11:28:44.4247,    0.0390,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:28:45.0863,    0.6616,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IndexOutOfRangeException: There is no row at position 9.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at testExcel.DataTableToDatabase.Input(SqlConnection sqlcon, DataTable dtColumns, DataTable dt, String tableName)
+   at testExcel.DataTableToDatabase.InputToDatabase(DataTable dt, String serverName, String dbName, String tableName, String[] columnsTypeToAdd)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-07 11:28:45.1003,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 794ms,
+2021-02-07 11:28:59.5795,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:28:59.6539,    0.0744,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:28:59.6539,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 11:28:59.6679,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 11:28:59.8790,    0.2111,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:29:00.5405,    0.6615,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IndexOutOfRangeException: There is no row at position 9.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at testExcel.DataTableToDatabase.Input(SqlConnection sqlcon, DataTable dtColumns, DataTable dt, String tableName)
+   at testExcel.DataTableToDatabase.InputToDatabase(DataTable dt, String serverName, String dbName, String tableName, String[] columnsTypeToAdd)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-07 11:29:00.5585,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 972ms,
+2021-02-07 11:57:22.1011,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 11:57:22.2721,    0.1710,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:57:22.2821,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 11:57:22.2901,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 11:57:22.3421,    0.0520,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:57:23.1865,    0.8444,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 11:57:23.1865,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 11:57:23.1995,    0.0130,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 11:57:23.2133,    0.0139,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 11:57:23.3840,    0.1706,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1277ms,
+2021-02-07 13:43:16.4920,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:43:16.6720,    0.1800,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:43:16.6820,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 13:43:16.6820,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 13:43:16.7510,    0.0690,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:43:21.3833,    4.6323,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 4884ms,
+2021-02-07 13:43:44.6953,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:43:44.8103,    0.1150,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:43:44.8183,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 13:43:44.8353,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 13:43:44.9463,    0.1110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:43:45.0343,    0.0880,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:43:47.4947,    2.4604,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2790ms,
+2021-02-07 13:44:38.7310,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:44:38.8439,    0.1129,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:44:38.8539,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 13:44:38.8539,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandFocus,
+2021-02-07 13:44:38.8719,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:44:39.0099,    0.1380,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:44:40.5886,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:44:40.6806,    0.0920,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:44:40.6806,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 13:44:40.6976,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 13:44:40.6976,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:44:40.7446,    0.0470,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:44:40.9076,    1.8977,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2180ms,
+2021-02-07 13:44:41.7732,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:44:41.8661,    0.0930,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:44:41.8661,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 13:44:41.8851,    0.0190,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 13:44:41.8972,    0.0120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:44:41.9441,    0.0470,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:44:42.8521,    2.1075,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2254ms,
+2021-02-07 13:44:44.6325,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:44:44.7755,    0.1430,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:44:44.7895,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 13:44:44.8035,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 13:44:44.8225,    0.0190,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:44:44.8825,    0.0600,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:44:45.2595,    3.3153,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 3478ms,
+2021-02-07 13:44:47.1322,    2.2497,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2491ms,
+2021-02-07 13:45:27.8211,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:45:27.9001,    0.0790,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:45:27.9001,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 13:45:27.9221,    0.0220,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 13:45:28.0111,    0.0890,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:45:28.0531,    0.0420,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:45:30.9671,    2.9139,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 3146ms,
+2021-02-07 13:56:18.4031,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 13:56:18.4761,    0.0730,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 13:56:18.4841,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 13:56:18.4951,    0.0110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 13:56:18.4951,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 13:56:18.5381,    0.0430,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 13:56:19.8985,    1.3604,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1496ms,
+2021-02-07 20:32:21.3855,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 20:32:21.4625,    0.0770,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 20:32:21.4625,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 20:32:21.4795,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 20:32:21.6364,    0.1569,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 20:32:21.6814,    0.0450,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 20:32:22.3353,    0.6539,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 946ms,
+2021-02-07 20:32:24.1201,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 20:32:24.1901,    0.0700,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 20:32:24.1971,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 20:32:24.1971,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandFocus,
+2021-02-07 20:32:24.2141,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 20:32:24.2412,    0.0270,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 20:32:25.0453,    0.8041,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 925ms,
+2021-02-07 20:32:26.5077,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 20:32:26.5687,    0.0610,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 20:32:26.5787,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 20:32:26.5877,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 20:32:26.5877,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 20:32:26.6337,    0.0460,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 20:32:27.1338,    0.5001,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFWorkbook' to type 'NPOI.HSSF.UserModel.HSSFWorkbook'.
+   at NPOI.HSSF.UserModel.HSSFEvaluationWorkbook.Create(IWorkbook book)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook, IStabilityClassifier stabilityClassifier, UDFFinder udfFinder)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-07 20:32:27.1697,    0.0360,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 655ms,
+2021-02-07 20:32:29.0162,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 20:32:29.0902,    0.0740,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 20:32:29.0902,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 20:32:29.1083,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 20:32:29.1083,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 20:32:29.1562,    0.0480,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 20:32:32.4378,    3.2816,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 3415ms,
+2021-02-07 21:05:18.8192,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:05:18.8812,    0.0620,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-02-07 21:05:18.8812,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : []..dbo. Into : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\RawData\SVAchHO_RawData_20210207.xlsx using Query : C:\BitBucket\Sales Volume\SalesAchievementSimplify\Query\ach_rawdata_sales.sql,
+2021-02-07 21:16:34.9441,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:16:35.0051,    0.0610,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-02-07 21:16:35.0051,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBDEV42\DEV2012].Users Into : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\RawData\SVAchHO_RawData_20210207.xlsx using Query : C:\BitBucket\Sales Volume\SalesAchievementSimplify\Query\ach_rawdata_sales.sql,
+2021-02-07 21:16:52.6500,   17.6449,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 17700ms,
+2021-02-07 21:16:53.1860,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:16:53.2459,    0.0600,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-02-07 21:16:53.2529,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBDEV42\DEV2012].Users Into : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\RawData\SVAchHO_RawData_20210207.xlsx using Query : C:\BitBucket\Sales Volume\SalesAchievementSimplify\Query\ach_rawdata_return.sql,
+2021-02-07 21:17:07.1281,   13.8752,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 13935ms,
+2021-02-07 21:43:53.9999,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:43:54.0599,    0.0600,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:43:54.0599,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 21:43:54.0779,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 21:43:54.0779,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:43:54.1409,    0.0630,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:43:54.7019,    0.5610,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFWorkbook' to type 'NPOI.HSSF.UserModel.HSSFWorkbook'.
+   at NPOI.HSSF.UserModel.HSSFEvaluationWorkbook.Create(IWorkbook book)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook, IStabilityClassifier stabilityClassifier, UDFFinder udfFinder)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 21:43:54.7299,    0.0280,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 723ms,
+2021-02-07 21:44:16.6110,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:44:16.6750,    0.0640,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:44:16.6880,    0.0130,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 21:44:16.6980,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 21:44:16.6980,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:44:16.7390,    0.0410,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:44:17.0610,    0.3220,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFWorkbook' to type 'NPOI.HSSF.UserModel.HSSFWorkbook'.
+   at NPOI.HSSF.UserModel.HSSFEvaluationWorkbook.Create(IWorkbook book)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook, IStabilityClassifier stabilityClassifier, UDFFinder udfFinder)
+   at NPOI.HSSF.UserModel.HSSFFormulaEvaluator..ctor(IWorkbook workbook)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 21:44:17.0790,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 460ms,
+2021-02-07 21:50:27.7561,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:50:27.8340,    0.0780,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:50:27.8340,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 21:50:27.8540,    0.0200,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 21:50:27.8540,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:50:27.9060,    0.0520,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:50:28.5543,    0.6483,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 792ms,
+2021-02-07 21:50:30.5729,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:50:30.6769,    0.1040,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:50:30.6860,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandFocus,
+2021-02-07 21:50:30.6949,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandFocus,
+2021-02-07 21:50:30.9721,    0.2771,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:50:31.0119,    0.0399,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:50:31.7554,    0.7434,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1176ms,
+2021-02-07 21:50:33.7727,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:50:34.1247,    0.3520,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:50:34.1407,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 21:50:34.1527,    0.0120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 21:50:34.1687,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:50:34.2297,    0.0610,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:50:35.2356,    1.0060,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1455ms,
+2021-02-07 21:50:59.5743,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 21:50:59.6563,    0.0820,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 21:50:59.6663,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandBreakdown,
+2021-02-07 21:50:59.6663,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandBreakdown,
+2021-02-07 21:50:59.6833,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 21:50:59.9803,    0.2970,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 21:51:02.2119,    2.2316,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2631ms,
+2021-02-07 22:14:36.9087,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:14:37.0297,    0.1210,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:14:37.0297,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:14:37.0467,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:14:37.0467,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:14:37.2627,    0.2160,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:14:37.2797,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 363ms,
+2021-02-07 22:15:21.5931,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:15:21.6661,    0.0730,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:15:21.6741,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:15:21.6741,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:15:21.6901,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:15:21.7171,    0.0270,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:15:21.8401,    0.1230,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 240ms,
+2021-02-07 22:16:21.2341,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:16:21.3031,    0.0690,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:16:21.3111,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:16:21.3111,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:16:21.3281,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:16:21.3531,    0.0250,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:16:21.3701,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 136ms,
+2021-02-07 22:16:58.2790,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:16:58.3590,    0.0800,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:16:58.3590,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:16:58.3750,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:16:58.3890,    0.0139,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:16:58.6130,    0.2240,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:16:58.6480,    0.0350,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 364ms,
+2021-02-07 22:20:04.0736,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:20:04.5166,    0.4430,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:20:04.5326,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:20:04.5506,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:20:04.5686,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:20:04.6606,    0.0920,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:20:04.7136,    0.0530,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 632ms,
+2021-02-07 22:21:16.4507,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:21:16.5057,    0.0550,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:21:16.5147,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 22:21:16.5147,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 22:21:16.5327,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:21:16.5617,    0.0290,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\setting\brandmapping.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:21:16.7137,    0.1520,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 263ms,
+2021-02-07 22:21:53.3330,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:21:53.4010,    0.0680,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:21:53.4110,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 22:21:53.4230,    0.0120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 22:21:53.4230,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:21:53.4650,    0.0420,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\setting\brandmapping.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:21:53.4860,    0.0210,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 153ms,
+2021-02-07 22:22:44.1614,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:22:44.3417,    0.1803,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:22:44.3417,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:22:44.3637,    0.0220,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:22:44.3727,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:22:44.4007,    0.0280,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:22:44.4207,    0.0200,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 259ms,
+2021-02-07 22:23:59.3213,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:23:59.3923,    0.0710,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:23:59.3923,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:23:59.4073,    0.0150,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:23:59.4073,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:23:59.5383,    0.1310,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:23:59.5663,    0.0280,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 245ms,
+2021-02-07 22:28:36.5637,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:28:36.6337,    0.0700,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:28:36.6407,    0.0070,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:28:36.6407,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:28:36.6557,    0.0150,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:28:36.6817,    0.0260,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\salesplan\sales plan #5 include v2 new.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:28:36.6997,    0.0180,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 136ms,
+2021-02-07 22:28:56.9052,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:28:56.9762,    0.0710,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:28:56.9842,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:28:56.9842,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:28:57.0002,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:28:57.1322,    0.1320,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:28:59.3376,    2.2054,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2433ms,
+2021-02-07 22:33:36.8563,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:33:37.0313,    0.1750,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:33:37.0313,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:33:37.0483,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:33:37.0483,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:33:37.0863,    0.0380,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:33:38.8497,    1.7634,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1993ms,
+2021-02-07 22:33:39.7385,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:33:39.7915,    0.0530,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:33:39.7915,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 22:33:39.7915,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 22:33:39.8116,    0.0200,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:33:39.8326,    0.0210,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.IO.IOException: The process cannot access the file 'c:\bitbucket\sales volume\salesachievementsimplify\userconfig\setting\brandmapping.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunImportMode(Options opts)"
+2021-02-07 22:33:39.8486,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 110ms,
+2021-02-07 22:34:03.8407,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:34:03.9460,    0.1053,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:34:03.9617,    0.0157,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:34:03.9727,    0.0110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:34:03.9817,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:34:04.0147,    0.0330,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:34:04.9377,    0.9230,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1097ms,
+2021-02-07 22:34:05.8807,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:34:05.9437,    0.0630,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:34:05.9567,    0.0130,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 22:34:05.9647,    0.0080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 22:34:05.9647,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:34:06.0007,    0.0360,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:34:07.5601,    1.5593,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1680ms,
+2021-02-07 22:35:30.8242,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:35:30.9136,    0.0895,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:35:30.9256,    0.0120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_Plan,
+2021-02-07 22:35:30.9356,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_Plan,
+2021-02-07 22:35:30.9487,    0.0130,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:35:30.9946,    0.0460,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:35:33.0817,    2.0871,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2258ms,
+2021-02-07 22:35:34.8087,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-07 22:35:34.9187,    0.1100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-07 22:35:34.9348,    0.0160,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\Setting\BrandMapping.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_BrandMapping,
+2021-02-07 22:35:34.9567,    0.0220,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_BrandMapping,
+2021-02-07 22:35:34.9847,    0.0280,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Skip Blank Row Enabled,
+2021-02-07 22:35:35.0667,    0.0820,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-07 22:35:40.0003,    4.9335,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 5192ms,

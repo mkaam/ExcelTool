@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
+      "CommandLineParser/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
       "CsvHelper/15.0.5": {
         "type": "package",
         "dependencies": {
@@ -187,6 +196,15 @@
       }
     },
     ".NETFramework,Version=v4.5.2/win7-x86": {
+      "CommandLineParser/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
       "CsvHelper/15.0.5": {
         "type": "package",
         "dependencies": {
@@ -367,6 +385,28 @@
     }
   },
   "libraries": {
+    "CommandLineParser/2.8.0": {
+      "sha512": "eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "type": "package",
+      "path": "commandlineparser/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CommandLine20.png",
+        "License.md",
+        "README.md",
+        "commandlineparser.2.8.0.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "lib/net461/CommandLine.dll",
+        "lib/net461/CommandLine.xml",
+        "lib/netstandard2.0/CommandLine.dll",
+        "lib/netstandard2.0/CommandLine.xml"
+      ]
+    },
     "CsvHelper/15.0.5": {
       "sha512": "HPoE5nASoFXqoXKSi5yEBam7TzDrtC8WESA4xq53JtPKV8Mm+IKRuN+FJyMoJg1Whv/NG4JiCUs9yUcaSY/ziQ==",
       "type": "package",
@@ -854,6 +894,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
+      "CommandLineParser >= 2.8.0",
       "CsvHelper >= 15.0.5",
       "NLog >= 4.7.3",
       "NLog.Config >= 4.7.3",
@@ -866,13 +907,13 @@
     "C:\\Users\\mamrulla\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mamrulla\\OneDrive - Philip Morris International\\#aam\\App\\ExcelTool\\testExcel\\testExcel.csproj",
-      "projectName": "testExcel",
-      "projectPath": "C:\\Users\\mamrulla\\OneDrive - Philip Morris International\\#aam\\App\\ExcelTool\\testExcel\\testExcel.csproj",
+      "projectUniqueName": "C:\\BitBucket\\ExcelTool\\ExcelTool\\testExcel\\testExcel.csproj",
+      "projectName": "ExcelTool",
+      "projectPath": "C:\\BitBucket\\ExcelTool\\ExcelTool\\testExcel\\testExcel.csproj",
       "packagesPath": "C:\\Users\\mamrulla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mamrulla\\OneDrive - Philip Morris International\\#aam\\App\\ExcelTool\\testExcel\\obj\\",
+      "outputPath": "C:\\BitBucket\\ExcelTool\\ExcelTool\\testExcel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mamrulla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -899,6 +940,10 @@
     "frameworks": {
       "net452": {
         "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          },
           "CsvHelper": {
             "target": "Package",
             "version": "[15.0.5, )"

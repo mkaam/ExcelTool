@@ -1,0 +1,12 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-02-02 22:39:44.0718,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-02 22:39:44.2558,    0.1840,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-02 22:39:46.3030,    2.0472,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2232ms,
+2021-02-02 22:40:15.5378,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-02 22:40:15.6458,    0.1080,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-02 22:40:17.4011,    1.7553,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1854ms,
+2021-02-02 22:49:36.7140,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-02 22:49:36.7810,    0.0670,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-02 22:49:36.7900,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-02 22:49:36.8520,    0.0620,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-02 22:49:39.4809,    2.6289,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2768ms,

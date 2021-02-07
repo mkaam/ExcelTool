@@ -124,7 +124,7 @@ namespace testExcel
                                 //headStyle.SetFont(font);
                                 foreach (DataColumn column in dt.Columns)
                                 {
-                                    //Console.WriteLine(column.ColumnName);
+                                    
                                     headerRow.CreateCell(column.Ordinal + colAddr).SetCellValue(column.ColumnName);
                                     headerRow.GetCell(column.Ordinal + colAddr).CellStyle = headStyle;
 

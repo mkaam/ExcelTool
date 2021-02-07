@@ -1,0 +1,101 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-02-05 19:21:24.0613,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:21:24.1483,    0.0870,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 19:21:24.1583,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From :  Into []..dbo.,
+2021-02-05 19:21:24.2193,    0.0610,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 19:21:24.3603,    0.1410,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 299ms,
+2021-02-05 19:22:36.3758,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:22:36.4390,    0.0632,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 19:22:36.4390,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From :  Into []..dbo.,
+2021-02-05 19:22:36.4769,    0.0380,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 19:22:36.4899,    0.0130,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 114ms,
+2021-02-05 19:23:08.5155,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:23:08.6395,    0.1240,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 19:23:08.6565,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From :  Into []..dbo.,
+2021-02-05 19:23:08.7445,    0.0880,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 19:23:08.7795,    0.0350,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 252ms,
+2021-02-05 19:24:02.1947,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:24:02.2617,    0.0670,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 19:24:02.2767,    0.0150,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From :  Into []..dbo.,
+2021-02-05 19:24:02.3427,    0.0660,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 19:24:31.2048,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:24:31.2848,    0.0800,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 19:24:31.3068,    0.0220,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From :  Into []..dbo.,
+2021-02-05 19:24:31.3528,    0.0460,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 19:24:31.3668,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 151ms,
+2021-02-05 19:40:10.1978,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:41:10.1817,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:52:17.7622,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:56:41.7070,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:58:22.7466,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:58:22.8736,    0.1270,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 120ms,
+2021-02-05 19:58:36.1558,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 19:58:59.8775,   23.7217,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 23045ms,
+2021-02-05 20:05:00.9814,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:05:14.7659,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:08:26.0449,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:09:08.3153,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:09:55.7167,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:15:47.0071,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:26:30.4704,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:26:34.6920,    4.2216,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:26:34.6920,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\SalesPlan\*.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:26:34.7971,    0.1050,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)"
+2021-02-05 20:26:34.8320,    0.0350,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 4355ms,
+2021-02-05 20:26:49.2500,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:27:16.2826,   27.0326,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:27:19.0149,    2.7323,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\SalesPlan\*.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:27:47.0520,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:27:50.3227,    3.2706,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:27:50.3337,    0.0110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:27:50.3777,    0.0440,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:27:52.6697,    2.2921,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 5618ms,
+2021-02-05 20:29:06.6720,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:29:09.3961,    2.7241,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:29:09.3961,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:29:09.4411,    0.0450,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:29:10.9675,    1.5264,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 4289ms,
+2021-02-05 20:29:32.5955,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:30:05.3949,   32.7993,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:30:05.5882,    0.1933,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:30:06.3100,    0.7218,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:30:45.1263,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:31:07.0818,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:32:24.7376,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:33:17.0199,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:33:22.8181,    5.7982,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:33:22.8181,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:33:22.8631,    0.0450,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:50:40.5852,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:50:40.7492,    0.1640,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:50:40.7592,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:50:40.7692,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_PlanRAW,
+2021-02-05 20:50:40.8372,    0.0680,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:50:42.8096,    1.9724,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:50:42.8186,    0.0090,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:50:42.8186,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Truncate Table : SVAch_PlanRAW,
+2021-02-05 20:50:42.8396,    0.0210,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:50:43.5753,    0.7357,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2981ms,
+2021-02-05 20:51:16.3658,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-05 20:51:16.5098,    0.1440,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:51:16.5198,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #4 include V2.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:51:16.5638,    0.0440,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:51:18.2406,    1.6768,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Import Mode,
+2021-02-05 20:51:18.2576,    0.0170,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\SalesPlan\Sales Plan #5 include V2 new.xlsx Into [PMIIDSUBDEV42\DEV2012].Users.dbo.SVAch_PlanRAW,
+2021-02-05 20:51:18.2686,    0.0110,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Excel Type : xlsx,
+2021-02-05 20:51:19.0016,    0.7330,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2628ms,

@@ -10,6 +10,11 @@ namespace testExcel
 {
     class DatabaseToDataTable
     {
+        private static CLogger MyLog;
+        public DatabaseToDataTable(CLogger logger)
+        {
+            MyLog = logger;
+        }
         public DataTable ReadDatabase(SqlCommand cmd, string queryText)
         {
             var table = new DataTable();
@@ -17,13 +22,7 @@ namespace testExcel
             var rdr = cmd.ExecuteReader();
             table.Load(rdr);
             rdr.Close();
-            //foreach (DataRow row in table.Rows)
-            //{
-            //    foreach (DataColumn dc in table.Columns)
-            //    {
-            //        Console.WriteLine("read database " + row.ItemArray[dc.Ordinal].ToString());
-            //    }
-            //}
+
             return table;
         }
 
@@ -61,12 +60,11 @@ namespace testExcel
             try
             {
                 if (sqlcon.State == ConnectionState.Closed)
-                    sqlcon.Open();
-                Console.WriteLine("Open Connection Succeess");
+                    sqlcon.Open();                
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e);
+                MyLog.Error("ExportToDatabase Error!", e);                
             }
 
             string textFile = ExportQueryFile;
@@ -79,7 +77,7 @@ namespace testExcel
             }
             else
             {
-                Console.WriteLine("FILE DOESN'T EXIST");
+                MyLog.Warn("FILE DOESN'T EXIST");
             }
 
             try
@@ -88,34 +86,19 @@ namespace testExcel
                 {
                     using (SqlCommand cmd = sqlcon.CreateCommand())
                     {
-                        bool exists = CheckExistingTable(cmd, tableName);
-                        Console.WriteLine("Exist? " + exists.ToString());
-                        //DataTable dtColumns = ReadDatabase(cmd, tableName);
-                        //if (exists)
-                        //{
+                        bool exists = CheckExistingTable(cmd, tableName);                        
+                    
                             dtColumns = ReadDatabase(cmd, queryText);
-                            
-                        //}
-                        //else
-                        //{
-                        //    Console.WriteLine("ERROR TABLE DOESN'T EXIST");
-                        //}
-                        try
-                        {
+                                                
                             cmd.ExecuteNonQuery();
                             sqlcon.Close();
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine("ERROR " + e.Message);
-                        }
                     }
                 }
 
             }
             catch (SqlException e)
             {
-                Console.WriteLine("ERROR " + e.Message + ". Error Number " + e.Number);
+                MyLog.Error("ExportToDatabase Error!", e);                
             }
             return dtColumns;
         }

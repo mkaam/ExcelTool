@@ -18,6 +18,117 @@ namespace testExcel
 {
     class ExcelToDatatable
     {
+        private CLogger MyLog;
+
+        public ExcelToDatatable(CLogger logger)
+        {
+            MyLog = logger;
+            TruncateTable = false;
+            SkipBlankRow = false;
+        }
+
+        public bool TruncateTable { get; set; }
+
+        public bool SkipBlankRow { get; set; }
+
+        public IWorkbook GenerateWorkbookHelper(IWorkbook OriginalWorkbook, ISheet OriginalSheet, string range)
+        {
+            IWorkbook wb = OriginalWorkbook;
+            ISheet sh = wb.CreateSheet("tmp");
+
+            string[] cellStartStop = range.Split(':');
+
+            CellReference cellRefStart = new CellReference(cellStartStop[0]);
+            CellReference cellRefStop = new CellReference(cellStartStop[1]);
+
+            for (var i = cellRefStart.Row; i < cellRefStop.Row; i++)
+            {
+                if (OriginalSheet.GetRow(i).Cells.All(d => d.CellType == CellType.Blank))
+                {
+                    break;
+                }
+                IRow rw = sh.CreateRow(i);
+                for (var j = cellRefStart.Col; j <= cellRefStop.Col; j++)
+                {                    
+                    rw.Cells.Add(OriginalSheet.GetRow(i).GetCell(j));                    
+                }
+
+                
+            }
+
+            var aaa = sh.GetRowEnumerator();
+            
+
+            return wb;
+        }
+
+        public static ICell[,] GetRange(ISheet sheet, string range)
+        {
+            string[] cellStartStop = range.Split(':');
+
+            CellReference cellRefStart = new CellReference(cellStartStop[0]);
+            CellReference cellRefStop = new CellReference(cellStartStop[1]);
+
+            ICell[,] cells = new ICell[cellRefStop.Row - cellRefStart.Row +1, cellRefStop.Col - cellRefStart.Col +1];
+
+
+            for (int i = cellRefStart.Row; i < cellRefStop.Row ; i++)
+            {
+                IRow row = sheet.GetRow(i);
+                if (row.Cells.All(d => d.CellType == CellType.Blank))
+                {                    
+                    break;
+                }
+                if (i == 39)
+                {
+                    var asd = "";
+                }
+                for (int j = cellRefStart.Col; j < cellRefStop.Col + 1; j++)
+                {
+                    var aaa = row.GetCell(j).CellType;
+                    cells[i - cellRefStart.Row, j - cellRefStart.Col] = row.GetCell(j);
+                }
+            }
+
+            return cells;
+        }
+
+        public static T1[,] GetCellValues<T1>(ICell[,] cells)
+        {
+            T1[,] values = new T1[cells.GetLength(0), cells.GetLength(1)];
+
+            for (int i = 0; i < values.GetLength(0); i++)
+            {
+                for (int j = 0; j < values.GetLength(1); j++)
+                {
+                    if (typeof(T1) == typeof(double) || typeof(T1) == typeof(int) ||
+
+
+                        typeof(T1) == typeof(float) || typeof(T1) == typeof(long))
+                    {
+                        values[i, j] = (T1)Convert.ChangeType(cells[i, j].NumericCellValue, typeof(T1));
+
+
+                    }
+                    else if (typeof(T1) == typeof(DateTime))
+                    {
+                        values[i, j] = (T1)Convert.ChangeType(cells[i, j].DateCellValue, typeof(T1));
+
+
+                    }
+                    else if (typeof(T1) == typeof(string))
+                    {
+                        values[i, j] = (T1)Convert.ChangeType(cells[i, j].StringCellValue, typeof(T1));
+
+
+                    }
+                }
+            }
+
+            return values;
+        }
+
+
 
         public object Conversion(Dictionary<string, object> dictionary, string[] columnsTypeToAdd)
         {
@@ -35,23 +146,25 @@ namespace testExcel
             IWorkbook workbook;
             using (FileStream stream = new FileStream(ExcelFile, FileMode.Open, FileAccess.Read))
             {
-                newstring = ExcelFile.Substring(ExcelFile.Length - 4, 4);
-                //Console.WriteLine(newstring.ToLower());
+                newstring = Path.GetExtension(ExcelFile); //ExcelFile.Substring(ExcelFile.Length - 4, 4);
+             
                 //checking excel type
-                if (newstring.ToLower() == "xlsx")
+                if (newstring.ToLower() == ".xlsx")
                 {
-                    Console.WriteLine("xlsx");
+                    MyLog.Debug("Excel Type : xlsx");                   
                     workbook = new XSSFWorkbook(stream);
                 }
                 else
                 {
-                    Console.WriteLine("xls");
+                    MyLog.Debug("Excel Type : xls");                    
                     workbook = new HSSFWorkbook(stream);
                 }
-            }
+            }            
 
             //Get Sheet Name
             ISheet sheet;
+            
+
             var sht = workbook.GetSheet(NameSheet);
             if (sht == null)
             {
@@ -61,24 +174,32 @@ namespace testExcel
             {
                 sheet = workbook.GetSheet(NameSheet);
             }
-            
+                       
             IRow headerRow;
             DataTable dt = new DataTable(sheet.SheetName);
-            
+
+
             if (CellEnd != "")
             {
                 //<<START WHEN CELLEND NOT EMPTY>>
                 var range = "" + CellStart + ":" + CellEnd + "";
                 var cellRange = CellRangeAddress.ValueOf(range);
 
-                //Console.WriteLine(cellRange);
-                //input header
+                //var cells = GetCellValues<ICell>(GetRange(sheet, range));
+
+                //IWorkbook wb = GenerateWorkbookHelper(workbook, sheet, range);
+                
+                //if (row.Cells.All(d => d.CellType == CellType.Blank)) RowIsBlank = true;
+                //else RowIsBlank = false;
+
+
                 var header = sheet.GetRow(cellRange.FirstRow);
                 var headerIdx = 0;
-              
+
+                #region Generate Header
                 for (var j = cellRange.FirstColumn; j <= cellRange.LastColumn; j++)
                 {
-                    if(FirstRowisHeader.Equals("1"))
+                    if (FirstRowisHeader.Equals("1"))
                     {
                         if (header.GetCell(j) != null)
                         {
@@ -89,72 +210,76 @@ namespace testExcel
                             dt.Columns.Add("Column" + headerIdx);
                         }
                     }
-                    else if(FirstRowisHeader.Equals("0"))
+                    else if (FirstRowisHeader.Equals("0"))
                     {
                         dt.Columns.Add("Column" + headerIdx.ToString());
                     }
                     headerIdx++;
                 }
+                #endregion
 
                 //columnsTypeToAdd = new string[sheet.GetRow(cellRange.FirstRow).LastCellNum];
-           
+
                 columnsTypeToAdd = new string[headerIdx];
                 // modified by Aam on 20201028 to skip first row if config FirstRowisHeader = 1                
-                int firstRowAdd = FirstRowisHeader.Equals("1") ? 1 : 0; 
+                int firstRowAdd = FirstRowisHeader.Equals("1") ? 1 : 0;
 
-                for (var i = cellRange.FirstRow + (firstRowAdd) ; i <= (cellRange.LastRow); i++)
+                for (var i = cellRange.FirstRow + (firstRowAdd); i <= (cellRange.LastRow); i++)
                 {
                     var row = sheet.GetRow(i);
-                  
+                                      
                     DataRow dataRow = dt.NewRow();
                     bool[] isNull = new bool[dt.Columns.Count];
-                    //Console.WriteLine("dt.Columns.Count" + dt.Columns.Count);
+
                     for (var j = cellRange.FirstColumn; j <= (cellRange.LastColumn); j++)
                     {
-                       
+
 
                         //if (i > cellRange.FirstRow)
                         //{
                         int indexDr = j - cellRange.FirstColumn;
-                            if (newstring == "xlsx")
+                        if (newstring == ".xlsx")
+                        {
+                            IFormulaEvaluator fm = new XSSFFormulaEvaluator(workbook);
+
+                            try
                             {
-                                IFormulaEvaluator fm = new XSSFFormulaEvaluator(workbook);
+                                inputData(row.GetCell(j), indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
+                            }
+                            catch
+                            {
 
-                                try
-                                {
-                                    inputData(row.GetCell(j), indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
-                                }
-                                catch 
-                                {
-                                    
-                                        inputData(null, indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
-                                   
-                                }
-
+                                inputData(null, indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
 
                             }
-                            else
+
+
+                        }
+                        else
+                        {
+                            IFormulaEvaluator fm = new HSSFFormulaEvaluator(workbook);
+                            try
                             {
-                                IFormulaEvaluator fm = new HSSFFormulaEvaluator(workbook);
-                                try
-                                {
-                                    inputData(row.GetCell(j), indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
-                                }
-                                catch
-                                {
+                                inputData(row.GetCell(j), indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
+                            }
+                            catch
+                            {
 
-                                    inputData(null, indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
-
-                                }
+                                inputData(null, indexDr, fm, workbook, dataRow, columnsTypeToAdd, isNull);
 
                             }
+
+                        }
                         //}
                     }
-                   
-                        dt.Rows.Add(dataRow);
-                   
+
+                    dt.Rows.Add(dataRow);
+                    
+
+
                 }
                 //<<END WHEN CELLEND NOT EMPTY>>
+             
             }
             else
             {
@@ -175,10 +300,8 @@ namespace testExcel
                 {
                     //if (FirstRowisHeader.Equals("1") && headerCell.ToString() != null && headerCell.ToString() != "")
                     if (FirstRowisHeader.Equals("1"))
-                    {
-                        
-                            dt.Columns.Add(headerCell.ToString());
-                        
+                    {                        
+                        dt.Columns.Add(headerCell.ToString());                        
                     }
                     else if (FirstRowisHeader.Equals("0"))
                     {
@@ -195,7 +318,7 @@ namespace testExcel
                 for (var y = cr.Row + (firstRowAdd); y <= sheet.LastRowNum; y++)
                 {
                     var row = sheet.GetRow(y);  // skip header row
-
+             
                     DataRow dataRow = dt.NewRow();
                     //if (i > 0)
                     //{
@@ -205,7 +328,7 @@ namespace testExcel
                         for (var j = cr.Col; z <= dt.Columns.Count; j++)
                         {
                             int indexDr = j - cr.Col;
-                            if (newstring == "xlsx")
+                            if (newstring == ".xlsx")
                             {
                                 IFormulaEvaluator fm = new XSSFFormulaEvaluator(workbook);
 
@@ -234,7 +357,7 @@ namespace testExcel
                             }
                             z++;
                         }
-                        //Console.WriteLine("------------");
+                        
                     //}
 
                     //if (i > 0)
@@ -245,13 +368,24 @@ namespace testExcel
                 }
                 //<<END CELLEND IS EMPTY>>
             }
-            DataTableToDatabase dt2db = new DataTableToDatabase();
+            if (SkipBlankRow) RemoveNullColumnFromDataTable(dt);
+            DataTableToDatabase dt2db = new DataTableToDatabase(MyLog);
             columnsTypeToAdd = columnsTypeToAdd.Where(x => !string.IsNullOrEmpty(x)).ToArray();
+            dt2db.IsTruncateTable = TruncateTable;
             dt2db.InputToDatabase(dt, DBServer, DBName, DBTable, columnsTypeToAdd);
 
             return dt2db;
             
         }
+
+        public static void RemoveNullColumnFromDataTable(DataTable dt)
+        {
+            dt.AsEnumerable().Where(row => 
+                row.ItemArray.All(field => field == null | field == DBNull.Value | field.Equals(""))).ToList()
+                .ForEach(row => row.Delete());
+            dt.AcceptChanges();
+        }
+
         private void inputData(ICell cell, int i, IFormulaEvaluator formula, IWorkbook wb, DataRow dr, string[] columnsType, bool[] isNull)
         {
             formula.EvaluateInCell(cell);

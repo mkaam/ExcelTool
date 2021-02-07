@@ -1,0 +1,4 @@
+2021-02-01 22:38:11.2050|ERROR|testexcel.Program|Message : Unable to cast object of type 'System.Int32' to type 'System.String'.. StackTrace :    at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)
+2021-02-01 22:38:38.5162|ERROR|testexcel.Program|Message : Unable to cast object of type 'System.Int32' to type 'System.String'.. StackTrace :    at testExcel.ExcelToDatatable.Conversion(Dictionary`2 dictionary, String[] columnsTypeToAdd)
+   at testexcel.Program.RunOptions(Options opts)

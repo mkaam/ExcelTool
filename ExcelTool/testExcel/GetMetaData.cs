@@ -38,17 +38,15 @@ namespace testExcel
             using (FileStream stream = new FileStream(ExcelFile, FileMode.Open, FileAccess.Read))
             {
                 newstring = ExcelFile.Substring(ExcelFile.Length - 4, 4);
-                //Console.WriteLine(newstring.ToLower());
+                
                 //checking excel type
                 if (newstring.ToLower() == "xlsx")
-                {
-                    //Console.WriteLine("xlsx");
+                {                    
                     workbook = new XSSFWorkbook(stream);
 
                 }
                 else
-                {
-                    //Console.WriteLine("xls");
+                {                    
                     workbook = new HSSFWorkbook(stream);
 
                 }

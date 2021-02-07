@@ -1,0 +1,1 @@
+﻿import --excelfile "C:\BitBucket\Sales Volume\Sales Achievement\SalesVolumeEmail\UserConfig\Sales Plan #4 include V2.xlsx" --FirstRowIsHeader --CellStart A1 --CellEnd L50 --DBServer "PMIIDSUBDEV42\DEV2012" --DBName Users --DBTable SVAch_PlanRAW

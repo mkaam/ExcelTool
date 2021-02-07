@@ -2,7 +2,7 @@
   "profiles": {
     "testExcel": {
       "commandName": "Project",
-      "commandLineArgs": "\"\\\\pmiidsubdev42\\ssisfiles$\\Sales Volume Regional\\Sales Volume Regional\\app\\mailRecipient.csv\""
+      "commandLineArgs": " import --excelfile \"C:\\BitBucket\\Sales Volume\\SalesAchievementSimplify\\UserConfig\\Setting\\BrandMapping.xlsx\" --FirstRowIsHeader --CellStart A1 --CellEnd \"\" --DBServer \"PMIIDSUBDEV42\\DEV2012\" --DBName Users --DBTable SVAch_BrandMapping --TruncateTable --SkipBlankRow"
     }
   }
 }

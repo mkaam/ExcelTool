@@ -14,7 +14,14 @@ namespace testExcel
  
     class DataTableToDatabase
     {
-        private static Logger MyLog = LogManager.GetCurrentClassLogger();
+        private CLogger MyLog;// = LogManager.GetCurrentClassLogger();
+        public DataTableToDatabase(CLogger logger)
+        {
+            MyLog = logger;
+        }
+
+        public bool IsTruncateTable { get; set; }
+
         private void Input(SqlConnection sqlcon, DataTable dtColumns, DataTable dt, String tableName)
         {
            
@@ -39,7 +46,7 @@ namespace testExcel
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    MyLog.Error("Error!", ex);
                 }
             }
         }
@@ -51,13 +58,7 @@ namespace testExcel
             var rdr = cmd.ExecuteReader();
             table.Load(rdr);
             rdr.Close();
-            //foreach (DataRow row in table.Rows)
-            //{
-            //    foreach (DataColumn dc in table.Columns)
-            //    {
-            //        Console.WriteLine("read database " + row.ItemArray[dc.Ordinal].ToString());
-            //    }
-            //}
+      
             return table;
         }
 
@@ -74,9 +75,16 @@ namespace testExcel
             return exists;
         }
 
+        private void TruncateTable(SqlCommand cmd, string tableName)
+        {            
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = $"truncate table [{tableName}]";
+            cmd.ExecuteNonQuery();            
+        }
+
         private void CreateTableOnSQL(SqlCommand cmd, DataTable dt, string[] columnsToAdd, string tableName)
         {
-            Console.WriteLine("Create Table on SQL");
+            MyLog.Debug("Create Table on SQL");            
             string paramsToPut = "";
             for (int i = 0; i < columnsToAdd.Length; i++)
             {
@@ -88,13 +96,12 @@ namespace testExcel
                 else
                     paramsToPut += ", [" + trimmed + "] " + columnsToAdd[i];
             }
-            cmd.CommandText += "CREATE TABLE [dbo].[" + tableName + "] (" + paramsToPut + ");";
-            Console.WriteLine("CREATE TABLE " + cmd.CommandText.ToString());
+            cmd.CommandText += "CREATE TABLE [dbo].[" + tableName + "] (" + paramsToPut + ");";            
+            MyLog.Debug($"Execute : {cmd.CommandText.ToString()}");
         }
 
         public void InputToDatabase(DataTable dt, string serverName, string dbName, string tableName, string[] columnsTypeToAdd)
-        {
-            configureLogger();
+        {           
             SqlConnection sqlcon = new SqlConnection("Integrated Security=true; server=" + @"" + serverName + ";" +
                                        "Trusted_Connection=yes;" +
                                        "database=" + dbName + "; " +
@@ -103,13 +110,11 @@ namespace testExcel
             {
                 if (sqlcon.State == ConnectionState.Closed)
                     sqlcon.Open();
-                Console.WriteLine("Open Connection Succeess");
+                
             }
             catch (Exception e)
             {
-                
-
-                Console.WriteLine("Error: " + e);
+                MyLog.Error("Error!", e);               
             }
 
             try
@@ -118,11 +123,14 @@ namespace testExcel
                 {
                     using (SqlCommand cmd = sqlcon.CreateCommand())
                     {
-                        bool exists = CheckExistingTable(cmd, tableName);
-                        Console.WriteLine("Exist? " + exists.ToString());
+                        bool exists = CheckExistingTable(cmd, tableName);                        
                         //DataTable dtColumns = ReadDatabase(cmd, tableName);
                         if (exists)
                         {
+                            if (IsTruncateTable)
+                            {
+                                TruncateTable(cmd, tableName);
+                            }
                             DataTable dtColumns = ReadDatabase(cmd, tableName);
                             Input(sqlcon, dtColumns, dt, tableName);
                         }
@@ -139,36 +147,21 @@ namespace testExcel
                             sqlcon.Close();
                         }
                         catch (Exception e)
-                        {
-                            MyLog.Info("Done");
-                            MyLog.Error(e, "Message : " + e.Message + ". StackTrace : " + e.StackTrace);
-                            Console.WriteLine("Failure! Please read an error on 'logfile' folder");
-                            Console.WriteLine("ERROR " + e.Message);
+                        {                            
+                            MyLog.Error("Error!", e);
+                            MyLog.Debug("Failure! Please read an error on 'logfile' folder");
+                            
                         }
                     }
                 }               
             }
             catch (SqlException e)
             {
-                Console.WriteLine("ERROR " + e.Message + ". Error Number " + e.Number);
+                MyLog.Error("Error!", e);
             }
 
         }
-
-        static void configureLogger()
-        {
-            var config = new LoggingConfiguration();
-
-            // Targets where to log to: File and Console
-            var logfile = new FileTarget("logfile") { FileName = "logfile/" + DateTime.Now.ToString("yyyyMMdd") + ".txt" };
-            var logconsole = new ConsoleTarget("logconsole");
-
-            // Rules for mapping loggers to targets            
-            config.AddRule(LogLevel.Info, LogLevel.Info, logfile);
-            config.AddRule(LogLevel.Error, LogLevel.Error, logfile);
-
-            // Apply config           
-            LogManager.Configuration = config;
-        }
+        
+  
     }
 }
