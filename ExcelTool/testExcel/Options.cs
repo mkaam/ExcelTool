@@ -21,6 +21,8 @@ namespace testExcel
         public virtual string LogFile { get; set; }
         public virtual bool TruncateTable { get; set; }
         public virtual bool SkipBlankRow { get; set; }
+        public virtual string BackupPath { get; set; }
+        public virtual bool BackupMove { get; set; }
     }
 
     [Verb("config", isDefault: true, HelpText = "run Excel Tool using configuration file")]
@@ -72,6 +74,12 @@ namespace testExcel
 
         [Option(HelpText = "Don't insert Blank row")]
         public override bool SkipBlankRow { get; set; }
+
+        [Option(HelpText = "Backup [ExcelFile] to this path. Backup disable if this option not define. Ex : E:\\Backup")]
+        public override string BackupPath { get; set; }
+
+        [Option(HelpText = "Backup using Move File operation")]
+        public override bool BackupMove { get; set; }
 
     }
 

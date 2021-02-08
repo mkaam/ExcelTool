@@ -248,6 +248,26 @@ namespace testexcel
                         MyLog.Info(auth);
 
                     }
+
+                    if (opts.BackupPath != null && Directory.Exists(Path.GetDirectoryName(opts.BackupPath)) )
+                    {
+                        
+                        var FileNameOnly = Path.GetFileName(InputFile);
+                        var DateStr = DateTime.Now.ToString("yyyyMMddHHmmss");
+                        var BackupFile = $"{Path.Combine(Path.GetFullPath(opts.BackupPath),$"{FileNameOnly}_{DateStr}")}";
+
+                        if (opts.BackupMove) { 
+                            File.Move(InputFile, BackupFile);
+                            MyLog.Debug($"Move file {InputFile} to {BackupFile}. Done");
+                        }
+                        if (!opts.BackupMove) {
+                            File.Copy(InputFile, BackupFile);
+                            MyLog.Debug($"Copy file {InputFile} to {BackupFile}. Done");
+                        }
+
+                    }
+                    
+
                 }
 
 
