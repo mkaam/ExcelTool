@@ -2,7 +2,7 @@
   "profiles": {
     "testExcel": {
       "commandName": "Project",
-      "commandLineArgs": "import --excelfile \"C:\\BitBucket\\Sales Volume\\SalesAchievementSimplify\\UserConfig\\SalesPlan\\*.xlsx\" --FirstRowIsHeader --CellStart A1 --CellEnd I100 --DBServer \"PMIIDSUBDEV42\\DEV2012\" --DBName Users --DBTable SVAch_Plan --TruncateTable --SkipBlankRow --BackupPath \"C:\\BitBucket\\Sales Volume\\SalesAchievementSimplify\\Backup\""
+      "commandLineArgs": "export --excelfile \\\\pmiidsubdev38\\interface$\\SAMPOERNA\\QueryToEmail\\temp\\testaam.xslx --exportquery \\\\pmiidsubdev38\\interface$\\SAMPOERNA\\QueryToEmail\\input\\RODDSummaryReport.sql --dbname Users --dbserver PMIIDSUBDEV42\\DEV2012 --firstrowisheader --QueryParameter paramSalesPointCode=TRG"
     }
   }
 }

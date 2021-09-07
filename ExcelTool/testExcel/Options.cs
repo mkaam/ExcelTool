@@ -23,6 +23,7 @@ namespace testExcel
         public virtual bool SkipBlankRow { get; set; }
         public virtual string BackupPath { get; set; }
         public virtual bool BackupMove { get; set; }
+        public virtual IEnumerable<string> QueryParameter { get; set; }
     }
 
     [Verb("config", isDefault: true, HelpText = "run Excel Tool using configuration file")]
@@ -116,6 +117,9 @@ namespace testExcel
 
         [Option(HelpText = "Print process output to console")]
         public override bool Verbose { get; set; }
+
+        [Option(HelpText = "Query Parameter, eg: paramCustomerCode=JKT0232301")]
+        public override IEnumerable<string> QueryParameter { get; set; }
 
 
 

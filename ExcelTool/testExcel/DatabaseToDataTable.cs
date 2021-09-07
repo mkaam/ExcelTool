@@ -39,7 +39,7 @@ namespace testExcel
             return exists;
         }
 
-        public DataTable ExportToDatabase(Dictionary<string, object> dict)
+        public DataTable ExportToDatabase(Dictionary<string, object> dict, IEnumerable<string> QueryParameter = null)
         {
             //DeclareVariable
 
@@ -74,6 +74,23 @@ namespace testExcel
             {
                 // Read entire text file content in one string    
                 queryText = File.ReadAllText(textFile);
+
+                // added by aam 20210907 support for queryparameter, find and replace some text in query file
+                if (QueryParameter != null)
+                {
+                    foreach (string qtr in QueryParameter)
+                    {
+                        //skip if wrong format 
+                        if (qtr.Contains("="))
+                        {
+                            string lefttext = qtr.Split('=')[0].ToString();
+                            string righttext = qtr.Split('=')[1].ToString();
+                            if (lefttext.Length > 0 && righttext.Length > 0)
+                                queryText = queryText.Replace(lefttext, righttext);
+                        }
+                    }
+                }
+                
             }
             else
             {

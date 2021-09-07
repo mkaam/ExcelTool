@@ -136,7 +136,7 @@ namespace testexcel
                 dictionary.Add("ExcelFile", opts.ExcelFile );
                 dictionary.Add("SheetName", opts.SheetName);
                 dictionary.Add("FirstRowisHeader", opts.FirstRowIsHeader ? "1" : "0");
-                dictionary.Add("CellStart", opts.CellStart ?? "");
+                dictionary.Add("CellStart", opts.CellStart ?? "A1");
                 dictionary.Add("CellEnd", opts.CellEnd ?? "");
                 dictionary.Add("DBServer", opts.DbServer);
                 dictionary.Add("DBName", opts.DbName);
@@ -153,7 +153,12 @@ namespace testexcel
                     MyLog.Debug("Export Mode");
                     MyLog.Debug($"From : [{dictionary["DBServer"]}].{dictionary["DBName"]} Into : {dictionary["ExcelFile"]} using Query : {dictionary["ExportQueryFile"]}");
                     DatabaseToDataTable dt2d = new DatabaseToDataTable(MyLog);
-                    var dt = dt2d.ExportToDatabase(dictionary);
+
+                    DataTable dt; 
+                    if (opts.QueryParameter != null) 
+                        dt = dt2d.ExportToDatabase(dictionary,opts.QueryParameter);
+                    else
+                        dt = dt2d.ExportToDatabase(dictionary);
 
                     DataTableToExcel dt2e = new DataTableToExcel();
                     dt2e.ExportExcel(dt, dictionary);                   
