@@ -1,0 +1,5 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-09-07 20:46:36.5588,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-09-07 20:46:36.6708,    0.1120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-09-07 20:46:36.6708,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBDEV42\DEV2012].Users Into : \\pmiidsubdev38\interface$\SAMPOERNA\QueryToEmail\temp\testaam.xslx using Query : \\pmiidsubdev38\interface$\SAMPOERNA\QueryToEmail\input\RODDSummaryReport.sql,
+2021-09-07 20:47:14.8242,   38.1533,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 38266ms,

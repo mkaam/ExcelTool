@@ -1,0 +1,9 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-02-09 12:05:12.5640,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-09 12:05:12.7090,    0.1450,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-02-09 12:05:12.7190,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBDEV42\DEV2012].Users Into : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\RawData\SVAchHO_RawData_20210209.xlsx using Query : C:\BitBucket\Sales Volume\SalesAchievementSimplify\Query\ach_rawdata_sales.sql,
+2021-02-09 12:05:14.3440,    1.6250,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 1781ms,
+2021-02-09 12:05:15.2280,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-02-09 12:05:15.3220,    0.0940,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-02-09 12:05:15.3320,    0.0100,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBDEV42\DEV2012].Users Into : C:\BitBucket\Sales Volume\SalesAchievementSimplify\UserConfig\RawData\SVAchHO_RawData_20210209.xlsx using Query : C:\BitBucket\Sales Volume\SalesAchievementSimplify\Query\ach_rawdata_return.sql,
+2021-02-09 12:05:17.5040,    2.1720,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2277ms,

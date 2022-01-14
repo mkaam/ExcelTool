@@ -1,0 +1,93 @@
+Start Time,Elapsed Time,Machine Name,Login,Level,Message,Exception
+2021-06-07 21:29:48.9407,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:29:49.0547,    0.1140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:29:49.0547,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:29:53.6216,    4.5669,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte()
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt()
+   at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry()
+   at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor(ZipInputStream inp)
+   at NPOI.OpenXml4Net.OPC.ZipPackage..ctor(Stream in1, PackageAccess access)
+   at NPOI.OpenXml4Net.OPC.OPCPackage.Open(Stream in1)
+   at NPOI.Util.PackageHelper.Open(Stream is1)
+   at NPOI.XSSF.UserModel.XSSFWorkbook..ctor(Stream is1)
+   at testExcel.DataTableToExcel.ExportExcel(DataTable dt, Dictionary`2 dict)
+   at testexcel.Program.RunExportMode(Options opts)"
+2021-06-07 21:29:53.6446,    0.0230,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 4704ms,
+2021-06-07 21:30:21.5141,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:30:21.6031,    0.0890,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:30:21.6031,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:30:24.4681,    2.8650,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte()
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt()
+   at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry()
+   at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor(ZipInputStream inp)
+   at NPOI.OpenXml4Net.OPC.ZipPackage..ctor(Stream in1, PackageAccess access)
+   at NPOI.OpenXml4Net.OPC.OPCPackage.Open(Stream in1)
+   at NPOI.Util.PackageHelper.Open(Stream is1)
+   at NPOI.XSSF.UserModel.XSSFWorkbook..ctor(Stream is1)
+   at testExcel.DataTableToExcel.ExportExcel(DataTable dt, Dictionary`2 dict)
+   at testexcel.Program.RunExportMode(Options opts)"
+2021-06-07 21:30:24.4821,    0.0140,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 2968ms,
+2021-06-07 21:30:37.8705,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:30:47.2613,    9.3909,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:30:48.0493,    0.7880,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:32:07.6339,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:32:10.8323,    3.1984,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:32:10.8323,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:33:22.9741,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:33:24.4131,    1.4390,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:33:24.4131,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:34:33.2218,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:34:35.4088,    2.1869,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:34:35.4088,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:35:44.0714,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:35:46.0260,    1.9546,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:35:46.0260,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:35:48.5355,    2.5095,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at NPOI.SS.Util.CellAddress..ctor(String address)
+   at testExcel.DataTableToExcel.ExportExcel(DataTable dt, Dictionary`2 dict)
+   at testexcel.Program.RunExportMode(Options opts)"
+2021-06-07 21:35:48.5505,    0.0150,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 4479ms,
+2021-06-07 21:36:15.0330,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:36:16.9386,    1.9056,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:36:16.9386,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:36:21.7696,    4.8311,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte()
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt()
+   at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry()
+   at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor(ZipInputStream inp)
+   at NPOI.OpenXml4Net.OPC.ZipPackage..ctor(Stream in1, PackageAccess access)
+   at NPOI.OpenXml4Net.OPC.OPCPackage.Open(Stream in1)
+   at NPOI.Util.PackageHelper.Open(Stream is1)
+   at NPOI.XSSF.UserModel.XSSFWorkbook..ctor(Stream is1)
+   at testExcel.DataTableToExcel.ExportExcel(DataTable dt, Dictionary`2 dict)
+   at testexcel.Program.RunExportMode(Options opts)"
+2021-06-07 21:36:21.7816,    0.0120,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 6749ms,
+2021-06-07 21:38:05.6705,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:38:09.7802,    4.1097,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:38:09.7802,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:38:44.1897,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:38:44.2827,    0.0930,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:38:44.2827,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:38:50.1512,    5.8684,PMIIDIDNL12967,PMI\mamrulla,ERROR,Error!,"ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte()
+   at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt()
+   at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry()
+   at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor(ZipInputStream inp)
+   at NPOI.OpenXml4Net.OPC.ZipPackage..ctor(Stream in1, PackageAccess access)
+   at NPOI.OpenXml4Net.OPC.OPCPackage.Open(Stream in1)
+   at NPOI.Util.PackageHelper.Open(Stream is1)
+   at NPOI.XSSF.UserModel.XSSFWorkbook..ctor(Stream is1)
+   at testExcel.DataTableToExcel.ExportExcel(DataTable dt, Dictionary`2 dict)
+   at testexcel.Program.RunExportMode(Options opts)"
+2021-06-07 21:38:50.1512,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 5976ms,
+2021-06-07 21:38:54.5033,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:38:54.5823,    0.0790,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:38:54.5823,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:40:31.2481,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Start,
+2021-06-07 21:40:31.3281,    0.0800,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Export Mode,
+2021-06-07 21:40:31.3281,    0.0000,PMIIDIDNL12967,PMI\mamrulla,DEBUG,From : [PMIIDSUBISMS13\PRD1].SMSIndonesia_GSK_PRD Into : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\temp\GSK_ImportCustomerPhoneCount2.xlsx using Query : \\PMIIDSUBDEV38\INTERFACE$\SAMPOERNA\QueryToEmail\input\ImportCustomerPhoneCount.sql,
+2021-06-07 21:41:01.6011,   30.2730,PMIIDIDNL12967,PMI\mamrulla,DEBUG,Application Finished. Elapsed time: 30354ms,
